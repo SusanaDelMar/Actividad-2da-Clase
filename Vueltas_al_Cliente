@@ -1,0 +1,9 @@
+nombre=input("¿Cómo te llamas? ")
+Producto1=int(input("ingrese Precio producto 1 "))
+Producto2=int(input("Ingrese Precio producto 2 "))
+Producto3=int(input("ingrese el año de nacimiento 3 "))
+Total_compra=Producto1+Producto2+Producto3
+print("El resultado de la suma es", Total_compra)
+Valor_del_Pago=int(input("¿Con que Billetes pago el cliente? "))
+Vueltas=Valor_del_Pago-Total_compra
+print("Señor ",nombre," su cambio es ",Vueltas)
